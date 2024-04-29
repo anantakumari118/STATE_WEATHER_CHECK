@@ -41,4 +41,7 @@ per_label1 = Label(win, text="", font=("Time New Roman", 17))
 per_label1.place(x=250, y=470, height=50, width=210)
 done_button = Button(win, text="Done", font=("Time New Roman", 20, "bold"), command=data_get)
 done_button.place(x=200, y=190, height=50, width=100)
+
+footer_label = Label(win, text="Developed by Ananta", font=("Time New Roman", 12), fg="white", bg="blue")
+footer_label.place(x=0, y=580, width=500)
 win.mainloop()
